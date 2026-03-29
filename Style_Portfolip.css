@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #034120, #45013f);
+    color: white;
+    font-family: cursive, 'Poppins', sans-serif;
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+}
+
+.tagline {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+/* Card */
+.card-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+    max-width: 320px;
+    margin: auto;
+}
+
+/* Hover effect */
+.card-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Highlight */
+.highlight {
+    border: 2px solid #ffd369;
+}
+
+/* Text */
+h3 {
+    font-size: 1.2rem;
+}
+
+p, li {
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    color: #ffd369;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
